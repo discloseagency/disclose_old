@@ -25,3 +25,12 @@ const year = date.getFullYear();
 
 const addYear = document.querySelector('.year');
 addYear.innerText += year;
+
+
+const preloader = document.querySelector('.bg-loader');
+const header = document.querySelector('.header-fixed');
+
+setTimeout(function() {
+    preloader.classList.add('display-none');
+    header.classList.remove('display-none');
+}, 1000);
