@@ -417,7 +417,7 @@ label{
 }
 
 .pr {
-    background-image: url("https://raw.githubusercontent.com/discloseagency/discloseagency.github.io/master/img/bg-pr.jpg");
+    background-image: url("https://github.com/discloseagency/discloseagency.github.io/blob/master/img/bg-pr.jpg?raw=true");
 }
 
 .influencers {
@@ -538,6 +538,17 @@ button:hover {
 .contato-email {
     padding-top: 40px;
     font-size: 1.5em;
+}
+
+.bg-loader {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index 10000000;
+    background-color: black;
 }
 
 
