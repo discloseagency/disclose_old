@@ -194,7 +194,7 @@ label{
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
-    background-image: url("https://github.com/discloseagency/discloseagency.github.io/blob/master/img/bg-creative.jpg?raw=true");
+    background-image: url("https://raw.githubusercontent.com/discloseagency/discloseagency.github.io/master/img/bg-creative.jpg");
 }
 .banner-welcome-title {
     color: white;
@@ -242,7 +242,7 @@ label{
 
 .banner-left-image {
     transition: 0.5s;
-    background-image: url("https://github.com/discloseagency/discloseagency.github.io/blob/master/img/bg-about.jpeg?raw=true");
+    background-image: url("https://raw.githubusercontent.com/discloseagency/discloseagency.github.io/master/img/bg-about.jpeg");
     height: 100vh;
     opacity: 0.6;
     height: 100%;
@@ -417,15 +417,15 @@ label{
 }
 
 .pr {
-    background-image: url("https://github.com/discloseagency/discloseagency.github.io/blob/master/img/bg-pr.jpg?raw=true");
+    background-image: url("https://raw.githubusercontent.com/discloseagency/discloseagency.github.io/master/img/bg-pr.jpg");
 }
 
 .influencers {
-    background-image: url("https://github.com/discloseagency/discloseagency.github.io/blob/master/img/bg-influencers.jpg?raw=true");
+    background-image: url("https://raw.githubusercontent.com/discloseagency/discloseagency.github.io/master/img/bg-influencers.jpg");
 }
 
 .content-marketing {
-    background-image: url("https://github.com/discloseagency/discloseagency.github.io/blob/master/img/bg-content.jpg?raw=true");
+    background-image: url("https://raw.githubusercontent.com/discloseagency/discloseagency.github.io/master/img/bg-content.jpg");
 }
 
 /* Banner Equipe */
@@ -459,7 +459,7 @@ label{
     margin: 0 auto;
     height: 300px;
     width: 300px;
-    background-image: url("https://github.com/discloseagency/discloseagency.github.io/blob/master/img/bg-michel.jpg?raw=true");
+    background-image: url("https://raw.githubusercontent.com/discloseagency/discloseagency.github.io/master/img/bg-michel.jpg");
 }
 
 .banner-equipe-title {
