@@ -459,6 +459,9 @@ label{
     margin: 0 auto;
     height: 300px;
     width: 300px;
+}
+
+.michel {
     background-image: url("https://raw.githubusercontent.com/discloseagency/discloseagency.github.io/master/img/bg-michel.jpg");
 }
 
