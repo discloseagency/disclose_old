@@ -10,14 +10,13 @@ body.addEventListener('click', function(event){
     if (event.target.classList[0] == "container-menu-item") {
         toggleMenu.classList.toggle('display-none');
     }
-});
+}, {passive: true});
 
 listenToClickOnMenu.addEventListener('click', function(event) {
-    event.preventDefault();
     toggleMenu.classList.toggle('display-none');
     toggleMenu.classList.toggle('scale-up-top');
     spinMenuOnClick.classList.toggle('container-active-in');
-});
+}, {passive: true});
 
 
 const date = new Date();
