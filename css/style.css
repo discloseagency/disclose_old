@@ -606,8 +606,3 @@ button:hover {
         filter: hue-rotate(360deg);
     }
 }
-
-
-  #map {
-      height: 600px;
-  }

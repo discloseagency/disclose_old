@@ -55,24 +55,4 @@ function lazyLoad() {
     }, 2000);
 }
 
-// lazyLoad();
-
-
-var map;
-var service;
-var infowindow;
-
-function initMap() {
-  var wework = new google.maps.LatLng(-23.5562557, -46.6651338);
-
-  infowindow = new google.maps.InfoWindow();
-
-  map = new google.maps.Map(
-      document.getElementById('map'), {
-          center: 
-          wework, 
-          zoom: 15,
-          title: "Oi"
-        });
-}
-
+lazyLoad();
