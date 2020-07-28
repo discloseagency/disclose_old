@@ -562,9 +562,9 @@ button:hover {
       3px 3px 15px 1px rgba(0, 0, 0, 0.55);
     --shadow-inner: inset 3px 3px 8px 1px rgba(0, 0, 0, 0.5),
       inset -2px -2px 8px 1px rgba(255, 255, 255, 0.13);
-  }
+}
    
-    .loader {
+.loader {
       position: relative;
       height: 120px;
       width: 120px;
@@ -594,9 +594,9 @@ button:hover {
         z-index: 4;
         background-color: transparent;
         box-shadow: var(--shadow-inner);
-      }
     }
-    @keyframes loader {
+}
+@keyframes loader {
       from {
         transform: rotate(0deg);
         filter: hue-rotate(0);
@@ -604,6 +604,10 @@ button:hover {
       to {
         transform: rotate(360deg);
         filter: hue-rotate(360deg);
-      }
     }
+}
+
+
+  #map {
+      height: 600px;
   }
