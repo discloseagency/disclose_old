@@ -488,11 +488,12 @@ label{
 
 /* Footer */
 footer {
-    height: 10vh;
+    min-height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
     background-color: var(--main-text-color);
     color: white;
 }
@@ -541,4 +542,9 @@ button:hover {
 .contato-email {
     padding-top: 40px;
     font-size: 1.5em;
+}
+
+.information {
+    text-align: center;
+    width: 100%;
 }
