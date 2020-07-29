@@ -496,7 +496,7 @@ footer {
     flex-direction: column;
     background-color: var(--main-text-color);
     color: white;
-    padding: 50px;
+    padding: 20px;
 }
 
 footer p {
