@@ -155,6 +155,8 @@
     }
     footer p {
         font-size: 2em;
+        padding: 0 1em;
+        line-height: 1.5em;
     }
 
 }
