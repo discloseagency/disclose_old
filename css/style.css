@@ -564,6 +564,10 @@ input, textarea {
     border-radius: 20px;
 }
 
+input:focus, textarea:focus {
+    border: solid 2px var(--secondary-logo-color);
+}
+
 textarea {
     height: 300px;
     overflow: hidden;
