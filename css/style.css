@@ -562,6 +562,7 @@ input, textarea {
     padding: 10px;
     outline: none;
     border-radius: 20px;
+    border: solid 2px white;
 }
 
 input:focus, textarea:focus {
