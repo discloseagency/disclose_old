@@ -68,7 +68,7 @@
                 <div class="banner-welcome-content">
                     <h2 class="banner-welcome-content-title">PR & Marketing de Conteúdo</h2>
                     <h3 class="banner-welcome-content-subtitle">strategy by design</h3>
-                    <button><a href="mailto:contato@disclose.agency">Quero uma proposta</a></button>
+                    <button class="button-style"><a href="mailto:contato@disclose.agency">Quero uma proposta</a></button>
 
                 </div>
             </div>
@@ -143,7 +143,14 @@
             <div class="banner-contato flex-center">
                 <h3 class="banner-left-image-title banner-dark padding-top">contato<span class="title-span">//</span><br /></h3>
                 <h4 class="contato">Vamos criar juntos? Fale com a gente:</h4>
-                <button><a href="mailto:contato@disclose.agency">Quero uma proposta</a></button>
+                <div class="form-wrap flex-center">
+                    <form action="https://formspree.io/mrgyjbqq" method="POST" class="form">
+                    <input type="text" name="nome" required placeholder="Seu nome">
+                    <input type="email" name="email" required placeholder="Seu e-mail">
+                    <textarea type="text" name="mensagem" placeholder="Nos dê um olá!"></textarea>
+                    <button class="button-style">Enviar</button>
+                    </form>
+                </div>
             </div>
             <div class="our-location">
             </div>
@@ -153,6 +160,8 @@
     <footer>
         <p><a href="mailto:contato@disclose.agency">contato@disclose.agency</a> | Michel Marechal Consultoria em Marketing — Disclose<span class="title-span">//</span> Comunicação&reg; <span class="year"></span></p>
     </footer>
+
+
     <script src="js/app.js"></script>
 </body>
 </html>
