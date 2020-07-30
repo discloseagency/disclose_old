@@ -510,6 +510,7 @@ footer p {
     min-height: 50vh;
     background-color: white;
     color: var(--main-text-color);
+    padding-bottom: 30px;
 }
 
 .banner-contato h3 {
@@ -522,7 +523,7 @@ footer p {
     line-height: 1.5em;
 }
 
-button {
+.button-style {
     border-radius: 10px;
     background-color: var(--secondary-logo-color);
     color: var(--main-text-color);
@@ -533,7 +534,7 @@ button {
     transition: 0.5s;
 }
 
-button:hover {
+.button-style:hover {
     transition: 0.5s;
     transform: scale(1.1);
     color: var(--secondary-logo-color);
@@ -548,4 +549,32 @@ button:hover {
 .information {
     text-align: center;
     width: 100%;
+}
+
+input, textarea {
+    display: block;
+    margin: 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    width: 400px;
+    background-color: #dfe6e9;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+}
+
+textarea {
+    height: 300px;
+    overflow: hidden;
+}
+
+.form-wrap {
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-wrap .button-style {
+    width: 200px;
+    margin: 0;
 }
