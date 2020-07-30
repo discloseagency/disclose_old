@@ -566,6 +566,11 @@ input, textarea {
     border: solid 2px white;
 }
 
+textarea {
+    resize: none;
+}
+
+
 input:focus, textarea:focus {
     border: solid 2px var(--secondary-logo-color);
 }
