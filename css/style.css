@@ -577,8 +577,3 @@ textarea {
     flex-direction: column;
     text-align: center;
 }
-
-.form-wrap .button-style {
-    width: 200px;
-    margin: 0;
-}
