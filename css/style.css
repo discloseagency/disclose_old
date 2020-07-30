@@ -521,6 +521,7 @@ footer p {
 .contato {
     font-size: 2em;
     line-height: 1.5em;
+    text-align: center;
 }
 
 .button-style {
