@@ -107,7 +107,7 @@
         text-align: center;
     }
 
-    button {
+    .button-style {
         font-size: 2.5em;
         margin-bottom: 50px;
     }
