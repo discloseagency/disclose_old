@@ -194,13 +194,14 @@ label{
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
-    background-image: url("https://raw.githubusercontent.com/discloseagency/discloseagency.github.io/master/img/bg-creative.jpeg");
+    background-image: url("https://raw.githubusercontent.com/discloseagency/discloseagency.github.io/master/img/bg-creative");
 }
 .banner-welcome-title {
     font-size: 6em;
     font-weight: 800;
     padding: 100px;
     height: 20vh;
+    color: white;
 }
 .title-span {
     color: var(--secondary-logo-color);
@@ -212,18 +213,21 @@ label{
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: white;
 }
   
 .banner-welcome-content-title {
     width: 90%;
     font-size: 6em;
     font-weight: 800;
+    color: white;
 }
 .banner-welcome-content-subtitle {
     font-size: 2.5em;
     line-height: 2em;
     font-style: italic;
     font-weight: bold;
+    color: white;
 }
 
 /* Sobre Banner */
