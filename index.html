@@ -146,9 +146,12 @@
                 <h4 class="contato">Vamos criar juntos? Fale com a gente.</h4>
                 <div class="form-wrap flex-center">
                     <form action="https://formspree.io/mrgyjbqq" method="POST" class="form">
-                    <input type="text" name="nome" required placeholder="Seu nome">
-                    <input type="email" name="_replyto" required placeholder="Seu e-mail">
-                    <textarea type="text" name="message" required placeholder="Como podemos ajudar? Descreva o seu projeto e as suas necessidades para criarmos juntos."></textarea>
+                    <label for="name"></label>  
+                    <input type="text" name="nome" required placeholder="Seu nome" id="name">
+                    <label for="mail"></label>  
+                    <input type="email" name="_replyto" required placeholder="Seu e-mail" id="mail">
+                    <label for="message-text"></label> 
+                    <textarea type="text" name="message" required placeholder="Como podemos ajudar? Descreva o seu projeto e as suas necessidades para criarmos juntos." id="message-text"></textarea>
                     <button class="button-style" type="submit" value="Send">Quero uma proposta</button>
                     </form>
                 </div>

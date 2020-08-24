@@ -26,6 +26,7 @@ button, input[type="submit"], input[type="reset"] {
 	outline: inherit;
 }
 
+
 /* Toolkit */
 .flex-center {
     display: flex;
@@ -556,7 +557,6 @@ footer p {
 
 input, textarea {
     display: block;
-    margin: 20px;
     font-size: 1.2em;
     line-height: 1.5em;
     width: 40vw;
@@ -587,6 +587,3 @@ textarea {
     text-align: center;
 }
 
-.form-wrap button {
-    margin: 0;
-}
